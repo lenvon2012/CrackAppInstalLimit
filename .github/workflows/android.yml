@@ -28,5 +28,5 @@ jobs:
     - name : Upload artifact
       uses: actions/upload-artifact@master
       with:
-        name: OpenWrt firmware
+        name: Android APK
         path: app/build/outputs/apk/debug/
